@@ -1,0 +1,67 @@
+body,html{
+    margin:auto;
+    border:solid 10px rgb(98, 15, 15);
+    background-color: black;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium';
+}
+
+a:link {text-decoration: none;}
+a {color: rgb(98, 15, 15);}
+a:hover {color:  #076e0c;}
+
+.menu {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#destaque {
+    background-image: url(./img/img_capa.png);
+    background-size: cover;
+    text-align: center;
+    font-family: sament;
+    font-size: 60px;
+    color:white;
+    padding: 3.5%;
+}
+
+@font-face {
+    font-family:sament ;
+    src: url('./fonte_capa/sament.ttf');
+}
+
+.item{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.meu-botao {
+    background-color:rgb(110, 106, 106); /* Cor de fundo do botão */
+    border: rgb(98, 15, 15); /* Remove a borda */
+    padding: 10px 15px; /* Espaçamento interno (vertical horizontal) */
+    display: inline-block; /* Mantém o tamanho apenas necessário */
+    font-size: 12px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    border-radius: 8px; /* Cantos arredondados */
+  }
+  
+  .meu-botao:hover {
+    background-color: #f9fbf9; /* Cor de fundo quando o mouse passa por cima */
+  }
+
+footer{
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
